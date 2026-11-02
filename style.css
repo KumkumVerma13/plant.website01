@@ -1,0 +1,118 @@
+body{
+background-color: #f1f8e9;
+font-family: georgia;
+margin:0;
+padding:0;
+color: #333;
+}
+header img{
+float: left;
+margin-left: 40px;
+}
+header{
+background-color: #2e7d32;
+color:white;
+text-align:center;
+padding:12px;
+}
+nav{
+background-color:#1b5e20;
+text-align:center;
+padding;12px;
+}
+nav a{
+color: white ;
+text-decoration : none;
+margin: 10px;
+}
+
+h2,h3{
+color:#2e7d32;
+margin-left: 20px;
+}
+p,ul,ol{
+margin-left:20px;
+margin-right:20px;
+line-height:1.8;
+}
+nav a:hover{
+color:orange;
+}
+footer{
+background-color: #1b5e20;
+color:white;
+text-align: center;
+padding: 10px;
+margin-top: 30px;
+}
+.important-tip{
+background-color: #dcedc8;
+border-left: 6px solid #2e7d32;
+padding: 15px;
+margin: 20px 0;
+border-radious: 8px;
+}
+.important-tip h3{
+color: #1b5e20;
+font-family: Georgia;
+}
+.important-tip p{
+font-style:italic;
+}
+table{
+width:80%;
+margin:20px ;
+border-collapse: collapse;
+}
+th,td{
+border: 1px solid #228B22;
+padding: 12px;
+text-align: center;
+}
+th{
+background-color: #006633;
+color:white;
+}
+td{
+background-color: #f0fff0;
+}
+tr:hover td{
+background-color: #d8f3dc;
+}
+#hello {
+text-align:center;
+}
+form{
+width:80%;
+max-width:450px;
+margin:20px;
+padding:20px;
+background-color:white;
+border:1px solid #ccc;
+}
+label{
+display:block;
+margin-top:10px;
+}
+input,select,textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+box-sizing:border-box;
+}
+button{
+background-color:#2e7d32;
+color:white;
+padding: 10px 20px;
+border:none;
+margin-top:15px;
+cursor:pointer;
+}
+button:hover{
+background-color:#1b5e20;
+}
+#message{
+color:green;
+font-weight:bold;
+}
+

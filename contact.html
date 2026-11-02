@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1> Contact Us</h1>
+<p>Send Us Your Enquiry</p>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="plants.html">Plants</a>
+<a href="care.html">Plant Care</a>
+<a href="price.html">Price List</a>
+<a href="contact.html">Contact</a>
+</nav>
+<h2 id="hello">Plant Enquiry Form</h2>
+<form id="myform">
+<label>Your Name:</label>
+<input type="text" id="name" required>
+<label>Email:</label>
+<input type="email" required>
+<label>Select Plant:</label>
+<select required>
+<option value="">Choose a Plant</option>
+<option>Money Plant</option>
+<option>Rose PLant</option>
+<option>Aloe Vera</option>
+<option>Catcus</option>
+<option>Tulsi Plant</option>
+</select>
+<label>Your Message</label>
+<textarea rows="4"></textarea>
+<button type="submit">Submit</button>
+</form>
+<p id="message"></p>
+<script>
+document.getElementById("myform").onsubmit=function(event)
+{
+event.preventDefault();
+var name=document.getElementById("name").value;
+document.getElementById("message").innerHTML="Thank you" + name +"! Your enquiry is received.";
+document.getElementById("myform").reset();
+};
+</script>
+<footer>
+<p>Green Leaf Nursery | 2026</p>
+</footer>
+</body>
+</html>
+
+
+</body>
+</html>
